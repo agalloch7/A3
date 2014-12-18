@@ -1,0 +1,37 @@
+
+#home .ui-grid-a .ui-block-a {
+	width:75%;
+}
+
+#home .ui-grid-a .ui-block-b {
+	width:25%;
+}
+
+#contact .ui-grid-a .ui-block-a {
+	width:75%;
+}
+
+#contact .ui-grid-a .ui-block-b {
+	width:25%;
+	padding-left: 20px
+}
+#kitteh {
+	background-color:#DCE9FA;
+}
+.one{
+	background-image: url("img/kitten1.jpg");
+}
+.two {
+	background-image: url("../img/kitten2.jpg");
+}
+
+@media all and (max-width: 720px) {
+	#home .ui-grid-a .ui-block-a,
+	#home .ui-grid-a .ui-block-b {
+		width:100%;
+	}
+	#contact .ui-grid-a .ui-block-a,
+	#contact .ui-grid-a .ui-block-b {
+		width:100%;
+	}
+}
